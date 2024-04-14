@@ -1,0 +1,8 @@
+@import url(./main.css);
+body{
+    width: 100%;
+    height: 2000px;
+    padding: 0px;
+    margin: 0 auto;
+    background: #0F103F;   
+}
