@@ -1,9 +1,35 @@
 @import url(./main.css);
+@import url(./about.css);
 body{
     width: 100%;
-
     margin: 0px;
     padding: opx;
-   
     background: #0F103F;   
+}
+
+
+@media screen and (max-width:500px) {
+    #about_section{
+        max-width: 400px;
+        min-height: 400px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    #head{
+        position: sticky;
+        top: 5px;
+    }
+    aside{
+        display: none;
+    }
+    .headline{
+        font-size: 25px;
+        line-height: 20px;
+        margin-top: 80px;
+    }
+    .profile_links{
+        margin-top: 60px;
+        display: flex;
+        margin-left: 30%;
+      }
 }

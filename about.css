@@ -1,0 +1,15 @@
+#about_section{
+max-width:630px;
+min-height: 630px;
+top: 200px;
+margin: 0 auto;
+gap: 0px;
+border-radius: 350px;
+background: linear-gradient(144.11deg, #C961DE 13.74%, #2954A3 90.91%);
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: "Poppins",sans-serif;
+}
