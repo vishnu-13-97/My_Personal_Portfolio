@@ -8,7 +8,7 @@ body{
 }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:450px) {
     #about_section{
         max-width: 400px;
         min-height: 400px;
